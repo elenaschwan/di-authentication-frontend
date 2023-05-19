@@ -1,0 +1,14 @@
+basic_auth_bypass_cidr_blocks = []
+deployer_role_arn             = "arn:aws:iam::761723964695:role/deployer-role-pipeline-dev"
+common_state_bucket           = "digital-identity-dev-tfstate"
+incoming_traffic_cidr_blocks  = ["0.0.0.0/0"]
+logging_endpoint_arns         = []
+image_uri                     = "114407264696.dkr.ecr.eu-west-2.amazonaws.com/frontend-image-repository:0.0.717"
+image_tag                     = "0.0.717"
+image_digest                  = "sha256:580e7ee8f530a34afeefb1c25a8fdd7131654ecf63ba3daa67b3871d463e7210"
+sidecar_image_uri             = "114407264696.dkr.ecr.eu-west-2.amazonaws.com/basic-auth-sidecar-image-repository:401949c2915b552bf21513b8fc79233dea2d7e4e"
+sidecar_image_tag             = "401949c2915b552bf21513b8fc79233dea2d7e4e"
+sidecar_image_digest          = "sha256:44f84dd16e44dcbe1ed9331a3b66aba07a290f75bca232084b975a2cfed896d5"
+support_language_cy           = "0"
+support_account_recovery      = "1"
+support_international_numbers = "1"
